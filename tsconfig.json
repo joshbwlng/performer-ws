@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./dist",
+
+    "jsx": "react-jsx",
+    "jsxImportSource": "@performer/core",
+    "paths": {
+      "@performer/core/jsx-runtime": ["./node_modules/@performer/core/src/jsx/index.ts"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
