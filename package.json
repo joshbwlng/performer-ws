@@ -1,0 +1,28 @@
+{
+  "name": "performer-ws",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "tsx src/index.tsx",
+    "lint": "balena-lint src",
+    "lint:fix": "balena-lint --fix src",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@performer/core": "^0.0.32",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@balena/lint": "^7.3.0",
+    "@preact/signals-core": "^1.5.1",
+    "@types/node": "^20.11.26",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}
